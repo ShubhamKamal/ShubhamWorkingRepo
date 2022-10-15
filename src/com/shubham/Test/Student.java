@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Student {
 
+    String name2;
     private String id;
     private String name;
     private List<String> mobile;
