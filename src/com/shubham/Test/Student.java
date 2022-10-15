@@ -7,6 +7,7 @@ public class Student {
     private String id;
     private String name;
     private List<String> mobile;
+    private String address;
 
     public String getId() {
         return id;
