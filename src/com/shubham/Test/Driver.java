@@ -1,14 +1,24 @@
 package com.shubham.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Driver {
 
     public static void main(String[] args) {
+
+        Map<String,String> gfg = new HashMap<String,String>();
+
+        // enter name/url pair
+        gfg.put("GFG", "geeksforgeeks.org");
+        gfg.put("Practice", "practice.geeksforgeeks.org");
+        gfg.put("Code", "code.geeksforgeeks.org");
+        gfg.put("Quiz", "quiz.geeksforgeeks.org");
+
+        // forEach(action) method to iterate map
+        gfg.forEach((k,v) -> System.out.println("Key = "
+                + k + ", Value = " + v));
 
         List<String> list = new ArrayList<>();
         list.add("shubham3");
@@ -20,8 +30,8 @@ public class Driver {
         list1.add("shubham1");
         list1.add("shubham2");
 
-        List<String> list3 = list.stream().filter(s -> s.equals(list1.stream())).collect(Collectors.toList());
-        System.out.println(list3);
+        /*List<String> list3 = list.stream().filter(s -> s.equals(list1.stream())).collect(Collectors.toList());
+        System.out.println(list3);*/
 
       /*  List<String> mobileList1 = new ArrayList<>();
         mobileList1.add("1");
