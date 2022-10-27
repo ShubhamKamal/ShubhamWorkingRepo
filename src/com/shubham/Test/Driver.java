@@ -33,7 +33,7 @@ public class Driver {
         /*List<String> list3 = list.stream().filter(s -> s.equals(list1.stream())).collect(Collectors.toList());
         System.out.println(list3);*/
 
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list3 = new ArrayList<>();
       /*  List<String> mobileList1 = new ArrayList<>();
         mobileList1.add("1");
         mobileList1.add("2");
